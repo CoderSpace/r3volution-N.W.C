@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles/style.css" type="text/css" />
+    <script type="text/javascript" src="website.js"></script>
+    <script type="text/javascript" src="javascript/navbar.js"></script>
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <section class="contactsec">
+
+            <div class="andrew flex"> <img class="flex-face" src="./images/face.jpg"></img>
+                <h2>Andrew Lao</h2>
+            </div>
+            <p style="float: left;"></p>
+
+            <div class="brice flex"><img class="flex-face" src="./images/face.jpg"></img>
+                <h2>Brice Matthews</h2>
+            </div>
+            <p style="float: right;"></p>
+        </section>
+
+        <div class="gene flex"><img class="flex-face" src="./images/face.jpg"></img>
+            <h2>Gene Jolivet</h2>
+        </div>
+        <p style="float: left;"></p>
+
+        <section class="contactsec">
+
+            <div class="neeco flex"><img class="flex-face" src="./images/face.jpg"></img>
+                <h2>Neeco Hendricks</h2>
+            </div>
+            <p style="float: left;"></p>
+
+            <div class="kallatt flex"><img class="flex-face" src="./images/face.jpg"></img>
+                <h2>Kallatt Brown</h2>
+                <p style="float: right;"></p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    
+    <script>
+    var navToggle = document.getElementById('nav-toggle');
+
+//identify nav items
+
+var navItems = document.getElementById('nav-items');
+
+//button waiting to be clicked
+
+navToggle.addEventListener('click', function(){
+  
+  //the button will get clicked.
+// when the button gets clicked, the nav shows.
+  
+
+// when the button is clicked again, the nav will disappear.
+  
+  navItems.classList.toggle('mobile-nav-hidden');
+
+});
+ </script>
+</body>
+
+</html>

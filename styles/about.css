@@ -1,0 +1,16 @@
+.imagem {
+    justify-content:center;
+    float:center;
+}
+
+.text1{
+    width: 40%;
+}
+
+.text2{
+    width: 40%;
+}
+.aboutp {
+    display:flex;
+    justify-content:space-around;
+}
