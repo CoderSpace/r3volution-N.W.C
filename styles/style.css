@@ -7,7 +7,7 @@ body {
     /*background-image:url("https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747792_960_720.jpg");*/
 }
 .active {
-    color: white;
+    color: blue;
 }
 
 .nav {
